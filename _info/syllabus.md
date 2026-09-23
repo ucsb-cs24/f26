@@ -10,7 +10,7 @@ This document and linked resources are your **primary source** for understanding
 
 **Instructor:** {{ site.instructor }} &nbsp; | &nbsp; **Office Hours:** {{ site.office_hours }} &nbsp; | &nbsp; **Lectures:** {{ site.lecture_times }}, {{ site.lecture_location }} &nbsp; | &nbsp; **Sections:** {{ site.lab_times }}, Phelps 3525
 
-**Contacting Staff:** Use Ed (link on Canvas); urgent emails to diba@ucsb.edu with "CS24" in subject
+**Contacting Staff:** Ed (accessible from Canvas) is the **main communication channel** for this course — use it instead of emailing or messaging staff directly through Canvas. The instructor and TAs will be much more responsive on Ed. For private matters, send a private post on Ed to the instructor, or come to office hours.
 
 **Lab/Section Attendance:** Optional but highly recommended. TAs and ULAs are available to help with assignments. Section switching is not permitted due to enrollment. Contact instructor after first lecture if you have a conflict.
 
@@ -39,7 +39,7 @@ By the end of this course, students will be able to:
 **In-Class Participation:** Join the course on [iClicker Cloud]({{site.iclicker_join_link}}). Participation is ungraded but encouraged.
 
 ### Discussion Forum: Ed
-Use Ed for Q&A (link on Canvas). Post public questions when applicable; for coding issues:
+Ed (accessible via the course site on Canvas) is the main communication channel for the course and should replace direct email or Canvas messaging for course questions — the instructor and TAs are much more responsive there. Post public questions when applicable; for coding issues:
 - Share the smallest relevant code snippet (not screenshots/photos).
 - Make posts private if including significant code.
 
@@ -55,7 +55,7 @@ Grading follows standard scale.
 ### Quizzes (20%)
 Quizzes are given during lecture to help you stay on track and assess your understanding of recent material.
 - **Schedule**: Weeks 2 onward. See lecture schedule for quiz dates
-- **Format**: 15-20 minutes, given at the beginning or end of lecture
+- **Format**: 30 minutes, given at the beginning or end of lecture
 - **Coverage**: Material from the previous 2-3 weeks
 - **Grading**: Each quiz is worth 5%. 
 - **Make-ups**: No make-ups for missed quizzes; use the provision of final exam replacing the lowest quiz scores
@@ -86,8 +86,9 @@ Complete 10 medium LeetCode problems from the assigned list to practice algorith
 Complete one 20-minute mock technical interview with a TA or ULA to demonstrate your problem-solving and communication skills.
 
 **Timeline:**
-- **By end of Week 2**: Submit booking preferences form (link will be posted on course website)
-- **Weeks 5-10**: Complete your scheduled 20-minute mock interview
+- **Weeks 1-2**: Watch Ed for an announcement with booking instructions and the link to reserve your slot
+- **By Friday of Week 3**: Book your slot
+- **Weeks 3-10**: Complete your scheduled 20-minute mock interview
 
 **Format:**
 - Introduction & Behavioral (2 min) + Whiteboard Problem (5 min) + Coding (13 min) + Feedback (5 min)
@@ -95,7 +96,7 @@ Complete one 20-minute mock technical interview with a TA or ULA to demonstrate 
 - Evaluated on process and communication, not just correctness
 
 **Important:**
-- Book early! Slots fill up quickly with 200+ students
+- Book early! Slots fill up quickly
 - No make-ups without prior arrangement. Missing your interview = 0%
 - See [detailed guide and grading rubric]({{site.baseurl}}/info/mock_interview/) for complete information
 

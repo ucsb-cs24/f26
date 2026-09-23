@@ -11,7 +11,8 @@ ready: true
 Mock interviews are worth **10% of your course grade** and provide an opportunity to practice technical problem-solving and communication skills in a supportive environment. You will complete one 20-minute mock interview with a TA or ULA during Weeks 3-10. You must book your slot by Friday of Week 3.
 
 **Timeline:**
-- **By Friday of Week 3**: Submit booking preferences form (instructions are posted on Ed and on Canvas)
+- **Weeks 1-2**: Watch Ed for an announcement with booking instructions and the link to reserve your slot
+- **By Friday of Week 3**: Submit booking preferences form
 - **Weeks 3-10**: Complete your scheduled 20-minute mock interview
 
 **Important:** Book early! Slots fill up quickly. No make-ups without prior arrangement. Missing your scheduled interview = 0%.

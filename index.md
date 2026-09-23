@@ -72,7 +72,7 @@ There are **4 quizzes** given during lecture. The lowest quiz score will be repl
 | Quiz 3 | <time datetime="{{ quiz3_date }}">{{ quiz3_date | date: "%A, %B %-d, %Y" }}</time> |
 | Quiz 4 | <time datetime="{{ quiz4_date }}">{{ quiz4_date | date: "%A, %B %-d, %Y" }}</time> |
 
-Quizzes are 30–40 minutes at the beginning or end of lecture. No make-ups; see the [syllabus]({{site.baseurl}}/info/syllabus/) for full policy.
+Quizzes are 30 minutes at the beginning or end of lecture. No make-ups; see the [syllabus]({{site.baseurl}}/info/syllabus/) for full policy.
 
 ---
 
