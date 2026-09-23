@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab00 
-ready: true
+ready: false
 desc: "Getting started with Github (optional lab)"
 ---
 

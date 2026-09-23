@@ -2,7 +2,7 @@
 num: "lect08"
 sequence: 8
 desc: "Quiz 2 + Reflection"
-ready: true
+ready: false
 pre-reading: "Savitch: 1.2"
 annotatedready: false
 annotatedpdfurl: /lectures/CS24_Lect07_Handout_ann.pdf

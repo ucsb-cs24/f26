@@ -1,6 +1,6 @@
 ---
 num: pa03-tutorial
-ready: true
+ready: false
 desc: "A Gentle Introduction to Graphs and Neural Networks"
 ---
 

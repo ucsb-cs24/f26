@@ -27,13 +27,13 @@ main_dropdown:
        url: /resources_list/
 
 offerings:
-   title: S26
+   title: F26
    url: /
-   baseurl: /s26
+   baseurl: /f26
    items:
-      - title: S26-Home
+      - title: F26-Home
         url: /
-        baseurl: /s26
+        baseurl: /f26
 
 offering_links:
   - title: Assignments
@@ -46,11 +46,11 @@ offering_links:
     url: /info/mock_interview/
     description: "Mock Interview Guide"
   - title: Ed
-    url:  https://edstem.org/us/courses/97113/discussion
+    url:  https://edstem.org/us/courses/106255/discussion
     description: "Q&A Forum"
   - title: Github
     dropdown:
-       - title: ucsb-cs24-s26
-         url: https://github.com/ucsb-cs24-s26
+       - title: ucsb-cs24-f26
+         url: https://github.com/ucsb-cs24-f26
 
 

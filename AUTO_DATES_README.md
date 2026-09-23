@@ -103,14 +103,17 @@ That's it! All lecture dates recompute automatically.
 - ✅ Computation system created (_includes/compute_lecture_date.liquid)
 - ✅ Lecture table updated to support both methods
 - ✅ Config file updated with schedule settings
-- ✅ All lectures migrated to use `sequence` numbers (lect01-lect18)
+- ✅ All lectures migrated to use `sequence` numbers (lect01-lect19)
 - ✅ System tested and verified working correctly with holiday handling
-- ⏳ All assignments still use manual dates
-
-**To Fully Migrate Assignments:**
-1. Update assignment tables to use computed dates
-2. Implement assignment date computation based on lecture sequences
-3. Test thoroughly before deploying
+- ✅ Assignment dates (`_lab/`, `_pa/`, `_lp/`) are shifted quarter-to-quarter by
+  `sync_dates.rb`, which preserves each date's week-of-quarter and day-of-week
+  (see QUARTER_SYNC.md) — they still use manual/hardcoded dates in front
+  matter, but a one-command script keeps them correct across quarter changes
+- ⏳ True per-assignment runtime computation (`assigned_after_lecture` /
+  `due_days_later` / `due_day_of_week`, resolved live via
+  `_includes/compute_due_date.liquid`) is still unimplemented — the include
+  exists but nothing calls it yet. Worthwhile future work if hardcoded
+  front-matter dates ever become a problem, but not required today.
 
 ## Benefits
 

@@ -2,10 +2,10 @@
 num: "lect13"
 sequence: 14
 desc: "Graph search: Breadth first traversal + Reflection"
-ready: true
+ready: false
 pre-reading: "Savitch: 15.3"
 pdfurl: /lectures/CS24_Graphs_BFS.pdf
-annotatedready: true
+annotatedready: false
 annotatedpdfurl:  /lectures/CS24_Graph_BFT_ann.pdf
 ---
 

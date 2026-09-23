@@ -2,10 +2,10 @@
 num: "lect14"
 sequence: 15
 desc: "Graph Search: Depth first traversal"
-ready: true
+ready: false
 pre-reading: "Savitch: 15.4"
 pdfurl: /lectures/CS24_Graph_DFT.pdf
-annotatedready: true
+annotatedready: false
 annotatedpdfurl: /lectures/CS24_Graph_DFT_ann.pdf
 ---
 

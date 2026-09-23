@@ -19,9 +19,11 @@ Welcome to CS24! The goal of this class is to solve problems efficiently using d
 
 ---
 **Sections:** {{site.lab_times}} in Phelps 3525 &nbsp; 
-[Link to section slides](https://drive.google.com/drive/folders/1hs-swcWE7LgbJJ3ecqf-9PGq7FE7cVfX)  &nbsp;  
+[Link to section slides]({{site.section_slides_url}})  &nbsp;  
 
 ---
+**Graduate Student Researcher:** {{site.gsrs}}  &nbsp; 
+
 **Teaching Assistants (TAs)** {{site.tas}}  &nbsp; 
 
 
@@ -54,12 +56,21 @@ Pre-reading assignments in the lecture schedule use these shortforms (e.g., "Sav
 
 There are **4 quizzes** given during lecture. The lowest quiz score will be replaced by the final exam score if the final score is higher.
 
+{% capture quiz1_date %}{% include compute_lecture_date.liquid sequence=4 %}{% endcapture %}
+{% assign quiz1_date = quiz1_date | strip %}
+{% capture quiz2_date %}{% include compute_lecture_date.liquid sequence=8 %}{% endcapture %}
+{% assign quiz2_date = quiz2_date | strip %}
+{% capture quiz3_date %}{% include compute_lecture_date.liquid sequence=12 %}{% endcapture %}
+{% assign quiz3_date = quiz3_date | strip %}
+{% capture quiz4_date %}{% include compute_lecture_date.liquid sequence=17 %}{% endcapture %}
+{% assign quiz4_date = quiz4_date | strip %}
+
 | Quiz | Date |
 |------|------|
-| Quiz 1 | <time datetime="2026-04-08">Wednesday, April 8, 2026</time> |
-| Quiz 2 | <time datetime="2026-04-22">Wednesday, April 22, 2026</time> |
-| Quiz 3 | <time datetime="2026-05-06">Wednesday, May 6, 2026</time> |
-| Quiz 4 | <time datetime="2026-05-27">Wednesday, May 27, 2026</time> |
+| Quiz 1 | <time datetime="{{ quiz1_date }}">{{ quiz1_date | date: "%A, %B %-d, %Y" }}</time> |
+| Quiz 2 | <time datetime="{{ quiz2_date }}">{{ quiz2_date | date: "%A, %B %-d, %Y" }}</time> |
+| Quiz 3 | <time datetime="{{ quiz3_date }}">{{ quiz3_date | date: "%A, %B %-d, %Y" }}</time> |
+| Quiz 4 | <time datetime="{{ quiz4_date }}">{{ quiz4_date | date: "%A, %B %-d, %Y" }}</time> |
 
 Quizzes are 30–40 minutes at the beginning or end of lecture. No make-ups; see the [syllabus]({{site.baseurl}}/info/syllabus/) for full policy.
 
@@ -99,4 +110,4 @@ Quizzes are 30–40 minutes at the beginning or end of lecture. No make-ups; see
 
 ---
 
-[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/), Diba Mirza, Spring 2026.
+[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/), Diba Mirza, {{site.quarter}}.

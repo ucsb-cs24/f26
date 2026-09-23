@@ -3,53 +3,64 @@ plugins:
   - jekyll-include-cache
 
 # Lecture schedule configuration
-lect_repo: https://github.com/ucsb-cs24-s26/cs24-s26-lectures
+lect_repo: https://github.com/ucsb-cs24-f26/cs24-f26-lectures
 start_week: 1
-start_date: 2026-03-30        # First day of instruction
-dates_based_on: 2026-03-30   # Assignment dates currently use this quarter's start; updated by sync_dates.rb
+start_date: 2026-09-27       # First day of instruction
+dates_based_on: 2026-09-27   # Assignment dates currently use this quarter's start; updated by sync_dates.rb
 num_weeks: 10
 extra_exam_week: true
 lecture_days: [1, 3]  # 1=Monday, 3=Wednesday (use [2, 4] for Tue/Thu)
 holidays:
-  - date: "2026-05-25"
-    desc: "Memorial Day"
+  - date: "2026-11-11"
+    desc: "Veterans Day"
+  - date: "2026-11-26"
+    desc: "Thanksgiving"
+  - date: "2026-11-27"
+    desc: "Thanksgiving"
 
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 #remote_theme: pmarsceill/just-the-docs@v0.3.3
-url: https://ucsb-cs24.github.io/s26
-baseurl: "/s26"
+url: https://ucsb-cs24.github.io/f26
+baseurl: "/f26"
 instructor: "Diba Mirza"
-name: "CS24 Spring 2026"
+name: "CS24 Fall 2026"
 course: "CS24"
 course_title: "Problem Solving with Computers II"
-title: "UCSB CS24 s26"
-github_url: https://github.com/ucsb-cs24/s26
-iclicker_join_link: https://join.iclicker.com/GEXG
-qtr: "s26"
-quarter: "Spring 2026"
+title: "UCSB CS24 F26"
+github_url: https://github.com/ucsb-cs24/f26
+iclicker_join_link: https://join.iclicker.com/BCRL
+qtr: "f26"
+quarter: "Fall 2026"
 lecture_times: "MW 12:30a - 1:45p"
-lecture_location: "EMBARHALL"
-office_hours: "T: noon - 1p, Fri: 12:30p - 1:30p, HFH 2119"
-lab_times: "R: 10a - 10:50a , 1p - 1:50p , 2p - 2:50p, Phelps 3525" 
-tas: "Sarah Canto Hyatt and Guanyu Yao"
-ulas: "Nikhil Kapasi, Olivia Chen, Christian Kantchev"
+lecture_location: "GIRV 1004"
+office_hours: "T: noon - 2p, HFH 2119"
+lab_times: "R: 10a - 10:50a , 1p - 1:50p, Phelps 3525"
+section_slides_url: https://drive.google.com/drive/folders/14KgfwI2liRO3NQUpe3M5pMnak6nWzyOf?usp=drive_link
+tas: "Sarah Canto Hyatt"
+ulas: "Christian	Kantchev, Nikita Huynh, Nandini Dharwadkar, Aiden Shi, Kyle Manternach"
+gsrs: "Nikhil Kapasi"
 class_org:
-   name: ucsb-cs24-s26
-   url: https://github.com/ucsb-cs24-s26
-   githublinker: CS24 s26
+   name: ucsb-cs24-f26
+   url: https://github.com/ucsb-cs24-f26
+   githublinker: CS24 f26
 
 
 instructor_url: https://ucsb-cs24.github.io/instructor
 
+# Single source of truth for the final exam date — referenced via Liquid
+# (e.g. {{ site.final_exam_date | date: "%A, %B %-d, %Y" }}) so pages like
+# the syllabus and final-review lecture never go stale. Keep in sync with
+# the "Final Exam" entry in cal_dates below.
+final_exam_date: 2026-12-08
+final_exam_time: "Noon - 3:00 PM"
+
 cal_dates: >
   [
-  {"label":"First day of classes", "date":"2026-03-30" },
-  {"label":"Drop deadline (no W grade)","date":"2026-04-24" },
-  {"label":"Memorial Day - No lecture", "date":"2026-05-25" },
-  {"label":"Presidents Day - No lecture", "date":"2026-02-16" },
-  {"label":"s26 Instruction Ends", "date":"2026-06-05" },
-  {"label":"Final Exam", "date":"2026-06-09" },
-  {"label":"s26 Quarter Ends", "date":"2026-03-20" }
+  {"label":"First day of classes", "date":"2026-09-27" },
+  {"label":"Drop deadline (no W grade)","date":"2026-10-21" },
+  {"label":"Instruction Ends", "date":"2026-12-04" },
+  {"label":"Final Exam", "date":"2026-12-08" },
+  {"label":"Quarter Ends", "date":"2026-12-11" }
   ]
 
 kramdown:

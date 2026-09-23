@@ -2,16 +2,16 @@
 num: "lect17"
 sequence: 19
 desc: "Final Review"
-ready: true
+ready: false
 pdfurl: /lectures/CS24_FinalPractice.pdf
 annotatedpdfurl: /lectures/CS24_FinalPractice_ann.pdf
-annotatedready: true
+annotatedready: false
 handouturl: https://bit.ly/one-problem-to-rule-them-all
-handoutready: true
+handoutready: false
 ---
 
 ## Final Exam Logistics
-- Time and location: noon - 3p on June 9
+- Time and location: {{site.final_exam_time}} on {{ site.final_exam_date | date: "%B %-d" }}
 - Closed book closed notes.
 
 ## Tips for studying for the final exam

@@ -143,8 +143,8 @@ Key rules:
 
 ### Final Exam
 The final exam is **comprehensive** and covers all course material.
-- **Date**: Tuesday, June 9, 2026
-- **Time**: Noon - 3:00 PM
+- **Date**: {{ site.final_exam_date | date: "%A, %B %-d, %Y" }}
+- **Time**: {{site.final_exam_time}}
 - **Location**: {{site.lecture_location}} (Same as lecture hall)
 
 **Exam Makeups**: Makeups are granted only for unavoidable emergencies (e.g., major illness), not scheduling conflicts. Check the exam date early and plan accordingly!

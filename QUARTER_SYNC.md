@@ -27,9 +27,32 @@ holidays:
   # add one entry per holiday that falls on a lecture day
 ```
 
-Also update: `url`, `baseurl`, `qtr`, `quarter`, `name`, `title`, `lect_repo`, `class_org`, `lecture_times`, `lecture_location`, `cal_dates`, `tas`, `ulas`, etc.
+Also update: `url`, `baseurl`, `qtr`, `quarter`, `name`, `title`, `lect_repo`, `class_org`, `lecture_times`, `lecture_location`, `cal_dates`, `final_exam_date`, `final_exam_time`, `tas`, `ulas`, `gsrs`, etc.
 
-### 2. Sync holiday lecture files
+### 2. Update `_data/navigation.yml`
+
+Jekyll does **not** render Liquid inside `_data/*.yml` files, so these can't
+read from `_config.yml` automatically — they must be hand-edited every
+quarter:
+
+```yaml
+offerings:
+   title: F26            # <- update
+   baseurl: /f26          # <- update
+   items:
+      - title: F26-Home   # <- update
+        baseurl: /f26      # <- update
+
+  - title: Github
+    dropdown:
+       - title: ucsb-cs24-f26                        # <- update
+         url: https://github.com/ucsb-cs24-f26       # <- update
+
+  - title: Ed
+    url: https://edstem.org/...                       # <- update to this quarter's Ed course
+```
+
+### 3. Sync holiday lecture files
 
 ```bash
 ruby sync_holidays.rb --dry-run   # preview
@@ -43,23 +66,29 @@ This reads `start_date`, `lecture_days`, and `holidays` from `_config.yml` and:
   skips holidays and can never return a holiday date via sequence number)
 - Reports any stale holiday files from the previous quarter so you can delete them
 
-### 3. Shift assignment dates
+### 4. Shift assignment dates
 
 ```bash
 ruby sync_dates.rb --dry-run   # preview
 ruby sync_dates.rb             # apply
 ```
 
-This computes `offset = start_date − dates_based_on` and adds that many days to
-every `assigned` and `due` field in `_lab/*.md`, `_pa/*.md`, and `_lp/*.md`.
-After applying, it updates `dates_based_on` in `_config.yml` to equal `start_date`,
-so re-running the script is safe (offset becomes zero, nothing changes).
+This shifts every `assigned` and `due` field in `_lab/*.md`, `_pa/*.md`, and
+`_lp/*.md` so each date keeps the same **week-of-quarter and day-of-week** it
+had relative to the previous quarter's start — anchored to the first
+occurrence of the earliest `lecture_days` weekday on/after each quarter's
+`start_date`. This is *not* a flat day-count shift: a flat shift only
+preserves day-of-week when the two start dates happen to be a multiple of 7
+days apart (true for most back-to-back quarters, but false whenever a
+transition skips a quarter, e.g. Spring → Fall). After applying, it updates
+`dates_based_on` in `_config.yml` to equal `start_date`, so re-running the
+script is safe (nothing changes on a second run).
 
-> **Note:** The offset between back-to-back quarters is usually a multiple of 7 days,
-> preserving day-of-week alignment. Verify the shifted dates still fall on sensible
-> days (e.g., labs due on Fridays) before publishing.
+The script also warns if any shifted date lands on a configured holiday
+(e.g. an assignment shifting onto Thanksgiving) — review and manually adjust
+those before publishing.
 
-### 4. Check the lecture count
+### 5. Check the lecture count
 
 The number of lecture slots varies by quarter depending on when holidays fall:
 
@@ -78,19 +107,20 @@ The lecture files use `sequence: N` (auto-computes the date) — just keep the
 sequence numbers contiguous starting at 1. Holiday placeholder files use
 `lecture_date: YYYY-MM-DD` instead of a sequence number.
 
-### 5. Update content
+### 6. Update content
 
-- `lect18.md` / `lect19.md` — update quiz/final-review exam logistics (date, location, seating chart links)
+- `lect18.md` / `lect19.md` — update quiz/final-review exam logistics (date, location, seating chart links); these already pull `final_exam_date`/`final_exam_time` from `_config.yml`, so just the config needs updating
 - `_config.yml` `cal_dates` — update important dates (drop deadline, instruction end, final exam, quarter end)
 - Any assignment files that reference quarter-specific dates, repos, or Gradescope links
 
-### 6. Test locally
+### 7. Test locally
 
 ```bash
 ./jekyll.sh   # starts Jekyll at http://localhost:4000/<baseurl>
 ```
 
 Check:
+- Top nav bar shows the right quarter label/link and a working Github/Ed link
 - Lecture table shows correct dates and no gaps
 - Holiday rows appear in the right place
 - Assignment assigned/due dates look reasonable

@@ -8,10 +8,10 @@ ready: true
 
 ## Overview
 
-Mock interviews are worth **10% of your course grade** and provide an opportunity to practice technical problem-solving and communication skills in a supportive environment. You will complete one 20-minute mock interview with a TA or ULA during Weeks 3-10. You must book your slot by April 15.
+Mock interviews are worth **10% of your course grade** and provide an opportunity to practice technical problem-solving and communication skills in a supportive environment. You will complete one 20-minute mock interview with a TA or ULA during Weeks 3-10. You must book your slot by Friday of Week 3.
 
 **Timeline:**
-- **By April 15**: Submit booking preferences form (instructions are posed on Ed and on Canvas)
+- **By Friday of Week 3**: Submit booking preferences form (instructions are posted on Ed and on Canvas)
 - **Weeks 3-10**: Complete your scheduled 20-minute mock interview
 
 **Important:** Book early! Slots fill up quickly. No make-ups without prior arrangement. Missing your scheduled interview = 0%.
@@ -29,7 +29,7 @@ How to Book Your Mock Interview
 Step 1: Complete the Pre-Program Survey The first time you open the scheduler, you'll see a welcome screen with a short survey (~10 min). This is a one-time requirement before you can book any interviews.
 Step 2: Select Your Course If you're enrolled in multiple courses, use the dropdown at the top to select the one you want to book for.
 Step 3: Browse Available Slots Switch to the Book a Slot tab. Available time slots are grouped by week. Each slot shows the date and time, interviewer name (if assigned), duration, and remaining seats.
-Step 4: Book Your Slot Click Book on a slot that works for you. You'll see a green confirmation banner once it's booked. You can hold one upcoming interview per course at a time. Please book your slot before Wednesday, April 15.
+Step 4: Book Your Slot Click Book on a slot that works for you. You'll see a green confirmation banner once it's booked. You can hold one upcoming interview per course at a time. Please book your slot before Friday of Week 3.
 Step 5: Complete the Pre-Interview Survey Ten minutes before your interview, a short survey (~3 min) will appear on your booking card. Complete it before your interview begins.
 Step 6: Attend Your Interview Show up at the scheduled time. Your interviewer will guide you through a technical problem. (the rubric is accessible at any point on the student booking page)
 Step 7: Complete the Post-Interview Survey After your session, a reflection survey (~8 min) will appear. Complete it to unlock your interviewer's feedback and rubric scores.
@@ -148,4 +148,4 @@ A: That's normal! Remember this is a learning experience in a supportive environ
 
 ---
 
-[Back to Syllabus](/s26/info/syllabus/)
+[Back to Syllabus]({{site.baseurl}}/info/syllabus/)
