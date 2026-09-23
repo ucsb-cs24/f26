@@ -7,9 +7,9 @@ permalink: "/lab_list/"
 
 ## Mock Interviews
 
-Mock interviews are a **required component** of this course (worth 5% of your final grade). They help you practice technical interview skills in a supportive environment.
+Mock interviews are a **required component** of this course. They help you practice technical interview skills in a supportive environment.
 
-**Instructions and booking information will be posted here when available.**
+Booking instructions will be posted on Ed in Weeks 1-2. See the [Mock Interview Guide]({{site.baseurl}}/info/mock_interview/) for the full timeline, format, and grading rubric.
 
 <!--
 ### Booking Your Mock Interview
