@@ -44,10 +44,10 @@ Ed (accessible via the course site on Canvas) is the main communication channel 
 - Make posts private if including significant code.
 
 ### Grading
+- **Programming Assignments**: 20% (labs + larger projects)
+- **Practice (Leetcode + Caliber)**: 10% (preparation for quizzes and mock interview)
 - **Quizzes**: 20% (4 quizzes during lecture, lowest quiz score replaced by final exam score if final score is higher)
-- **Programming Assignments**: 25% (labs + larger projects)
-- **LeetCode Practice**: 10% (preparation for quizzes and mock interview)
-- **Mock Interview**: 10%
+- **Mock Interview**: 15%
 - **Final Exam**: 35%
 
 Grading follows standard scale.
@@ -61,7 +61,7 @@ Quizzes are given during lecture to help you stay on track and assess your under
 - **Make-ups**: No make-ups for missed quizzes; use the provision of final exam replacing the lowest quiz scores
 - **Content**: Mix of conceptual questions, code reading, and short coding problems
 
-### LeetCode Practice (10%)
+###  Practice (Leetcode + Caliber) (10%)
 Complete 10 medium LeetCode problems from the assigned list to practice algorithmic problem-solving in preparation for quizzes and the mock interview.
 - **Setup**: Create a LeetCode account (recommended format: `DS_[YourInitials]_[RandomNumber]`, e.g., `DS_JD_1234`).
 - **Submission**: For each problem set (lp01-lp05), submit via Gradescope by the posted deadline:
@@ -82,7 +82,9 @@ Complete 10 medium LeetCode problems from the assigned list to practice algorith
   - Submissions missing any required component (link, screenshot, or reflection) receive no credit
   - You must submit at least 10 complete submissions to receive any credit (e.g., 8 problems with full credit = 8%; 6 full + 4 partial = 8%; < 10 submitted = 0%)
 
-### Mock Interview (10%)
+  You will also receive other homework style formative feedback via the Caliber platform. 
+
+### Mock Interview (15%)
 Complete one 20-minute mock technical interview with a TA or ULA to demonstrate your problem-solving and communication skills.
 
 **Timeline:**
