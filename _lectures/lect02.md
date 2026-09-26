@@ -1,7 +1,7 @@
 ---
 num: "lect02"
 sequence: 2
-desc: "Abstract Data Types, Operator Overloading, and the Big Four"
+desc: "Operator Overloading, and the Big Four"
 ready: false
 pre-reading: "Savitch: 4.3 - 4.4, 5.1, 5.3"
 pdfurl: /lectures/CS24_Lecture2.pdf
@@ -17,7 +17,7 @@ handoutready: false
 
 
 # Topics
-Abstract Data Types review, operator overloading, Big four!
+Operator overloading, Big four!
 
 ## Big Four
 Four special functions for every class. C++ provides defaults. We discussed the default behaviors
