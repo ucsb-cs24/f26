@@ -1,9 +1,9 @@
 ---
 num: "lect07"
 sequence: 7
-desc: "Stack"
+desc: "Stack + Queue"
 ready: false
-pre-reading: "Savitch: 7.1 - 7.4"
+pre-reading: "Savitch: 7.1 - 7.4, 8.1 - 8.4"
 pdfurl: /lectures/CS24_Stacks.pdf
 annotatedready: false
 annotatedpdfurl: /lectures/Stacks_ann.pdf
@@ -16,6 +16,7 @@ handoutready: false
 
 # Topics
 * Stack - operations, implementation and why its useful
-* We'll solve this leetcode problem: https://leetcode.com/problems/daily-temperatures/
+* Queue - operations, implementation and why its useful
+* In-class demonstration: Breadth First Traversal on trees, using a stack and a queue together
 
 
