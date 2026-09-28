@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # sync_dates.rb
 #
-# Shifts all assignment assigned/due dates in _lab/, _pa/, and _lp/ from the
+# Shifts all assignment assigned/due dates in _lab/ and _pa/ from the
 # previous quarter (dates_based_on) onto the new quarter (start_date), while
 # preserving each date's week-of-quarter and day-of-week. A plain fixed-day
 # offset only preserves day-of-week when the two start dates happen to be a
@@ -66,7 +66,7 @@ end
 #   assigned: 2026-01-05 09:00:00.00-08:00
 DATE_FIELD_RE = /^(assigned|due): (\d{4}-\d{2}-\d{2})( .+)?$/
 
-dirs = %w[_lab _pa _lp].map { |d| File.join(SCRIPT_DIR, d) }
+dirs = %w[_lab _pa].map { |d| File.join(SCRIPT_DIR, d) }
 files = dirs.flat_map { |d| Dir.glob(File.join(d, '*.md')) }.sort
 
 changed = 0

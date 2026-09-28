@@ -16,8 +16,8 @@ handoutready: false
 
 ## Tips for studying for the final exam
 
-1. Start with Leetcode Sets – Go in Reverse Order
-Begin with lp05 (graph search) and work your way back to lp01 (linked lists).
+1. Start with Caliber Coding Practice Sets – Go in Reverse Order
+Begin with the graph search set and work your way back to the linked lists set.
 
     - Try to solve each problem within ~20 minutes.
 

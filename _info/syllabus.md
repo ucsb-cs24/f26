@@ -45,7 +45,7 @@ Ed (accessible via the course site on Canvas) is the main communication channel 
 
 ### Grading
 - **Programming Assignments**: 20% (labs + larger projects)
-- **Practice (Leetcode + Caliber)**: 10% (preparation for quizzes and mock interview)
+- **Practice (Caliber Coding Practice/Homework)**: 10% (preparation for quizzes and mock interview)
 - **Quizzes**: 20% (4 quizzes during lecture, lowest quiz score replaced by final exam score if final score is higher)
 - **Mock Interview**: 15%
 - **Final Exam**: 35%
@@ -61,28 +61,12 @@ Quizzes are given during lecture to help you stay on track and assess your under
 - **Make-ups**: No make-ups for missed quizzes; use the provision of final exam replacing the lowest quiz scores
 - **Content**: Mix of conceptual questions, code reading, and short coding problems
 
-###  Practice (Leetcode + Caliber) (10%)
-Complete 10 medium LeetCode problems from the assigned list to practice algorithmic problem-solving in preparation for quizzes and the mock interview.
-- **Setup**: Create a LeetCode account (recommended format: `DS_[YourInitials]_[RandomNumber]`, e.g., `DS_JD_1234`).
-- **Submission**: For each problem set (lp01-lp05), submit via Gradescope by the posted deadline:
-  1. The direct link to your submission (e.g., `https://leetcode.com/problems/problem-name/submissions/123456/`), not the problem description page. To get the correct link: after solving a problem, go to your submission history, click on your submission, and copy the URL from your browser's address bar.
-  2. A screenshot showing your test results. The screenshot must clearly show the problem name, your submission status, and how many test cases passed.
-  3. Your complete code solution (copy-paste from LeetCode).
-  4. A written reflection answering these questions (2-3 sentences each):
-     - **Algorithm**: What algorithm/approach did you use? (e.g., "I used a sliding window with a hash map...")
-     - **Data Structures**: Which data structures did you use and why?
-     - **Complexity**: What is the time complexity and space complexity of your solution? Briefly explain why.
-     - **Challenges**: What was the most difficult part? If your solution didn't pass all test cases, what cases failed and why do you think that happened?
-  5. In general AI may not be used for generating the code or solution to Leet Code Problems.
-- **Task**: Complete at least 2 problems from each of the 5 problem sets (lp01-lp05) for a total of 10 problems by Friday, Week 9, 11:59 PM.
-- **Grading**: Each problem is worth 1%, awarded as follows:
-  - **Full credit (1%)**: Solution passes all test cases + thoughtful reflection demonstrating understanding
-  - **Partial credit (0.5%)**: Solution passes most test cases (>50%) + reflection shows genuine effort and understanding of approach
-  - **No credit (0%)**: Incomplete submission, minimal effort, or reflection indicates lack of understanding
-  - Submissions missing any required component (link, screenshot, or reflection) receive no credit
-  - You must submit at least 10 complete submissions to receive any credit (e.g., 8 problems with full credit = 8%; 6 full + 4 partial = 8%; < 10 submitted = 0%)
-
-  You will also receive other homework style formative feedback via the Caliber platform. 
+###  Practice (Caliber Coding Practice/Homework) (10%)
+Complete Caliber coding practice/homework to practice algorithmic problem-solving in preparation for quizzes and the mock interview.
+- **Setup**: Join the course on [Caliber](https://app.caliber.cs.ucsb.edu) using the course code posted on Ed and Canvas.
+- **Assignment & submission**: Coding practice problem sets and formative homework are assigned and submitted directly through Caliber by the posted deadlines. Each set is tied to recent lecture topics (e.g., linked lists, BSTs, stacks/queues, priority queues/hashtables, graph search).
+- **AI Use**: AI may not be used for generating the code or solution to Caliber coding practice problems.
+- **Grading**: Caliber tracks completion and correctness for each assigned problem/homework item; your score for this category is based on your cumulative Caliber completion by Friday, Week 9, 11:59 PM.
 
 ### Mock Interview (15%)
 Complete one 20-minute mock technical interview with a TA or ULA to demonstrate your problem-solving and communication skills.
@@ -94,7 +78,7 @@ Complete one 20-minute mock technical interview with a TA or ULA to demonstrate 
 
 **Format:**
 - Introduction & Behavioral (2 min) + Whiteboard Problem (5 min) + Coding (13 min) + Feedback (5 min)
-- You'll plan and implement a solution to a medium-difficulty LeetCode problem while explaining your approach
+- You'll plan and implement a solution to a medium-difficulty coding problem selected by Caliber while explaining your approach
 - Evaluated on process and communication, not just correctness
 
 **Important:**

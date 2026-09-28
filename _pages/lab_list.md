@@ -37,6 +37,5 @@ Instructions are available in the related assignment on Canvas: <https://ucsb.in
 ## Programming Projects
 {% include pa_table.html %}
 
-## LeetCode Practice Problems
-{% include lp_table.html %}
+Coding practice (homework) is assigned and tracked via [Caliber](https://app.caliber.cs.ucsb.edu). See the [Syllabus]({{site.baseurl}}/info/syllabus/) for grading details.
 

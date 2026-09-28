@@ -1,9 +1,0 @@
-<table id="lp_table" class="asn_table" role="table" aria-label="LeetCode practice assignments">
-<caption class="sr-only">LeetCode practice problem sets with due dates and descriptions</caption>
-  {% include asn_table_header_row.html %}
-{% for asn in site.lp %}
- {% if asn.num %}
-   {% include asn_table_row.html %}
- {% endif %}
-{% endfor %}
-</table>

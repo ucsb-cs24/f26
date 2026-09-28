@@ -82,16 +82,11 @@ The site uses Jekyll collections to organize different types of content. Each co
    - Larger, often pair-programming assignments
    - Require starter code from GitHub (e.g., `https://github.com/ucsb-cs24-w26/STARTER-lab05`)
 
-4. **`_lp/`** - LeetCode practice problem sets
-   - Front matter: `num`, `ready`, `desc`, `assigned`, `due`
-   - Layout: `lab`
-   - Collections of curated LeetCode problems by topic
-
-5. **`_info/`** - Course information pages
+4. **`_info/`** - Course information pages
    - Contains: `syllabus.md`, `staff.md`, `calendar.md`
    - Layout: `default` or `handout`
 
-6. **`_exam/`** - Exam information
+5. **`_exam/`** - Exam information
    - Layout: `exam_info`
 
 ### Key Configuration
@@ -122,7 +117,6 @@ The site uses Jekyll collections to organize different types of content. Each co
 Located in `_includes/`:
 - `lecnot_table.html` - Renders lecture table with enhanced accessibility (ARIA labels, semantic HTML)
 - `pa_table.html` - Renders programming assignment table
-- `lp_table.html` - Renders LeetCode practice table with accessibility enhancements
 - `mathjax.html` - Math rendering support
 - `minutes.liquid` - Time formatting utility
 - `head-custom.html` - Custom head content with accessibility features
@@ -186,11 +180,6 @@ due: 2026-MM-DD HH:MM:SS.00-8
 2. Include sections: Collaboration policy, Learning Goals, Instructions
 3. Reference starter code from appropriate GitHub repo (ucsb-cs24-w26)
 
-### Adding LeetCode Practice Sets
-1. Create `_lp/lpXX.md` with front matter
-2. List curated problems with links and difficulty levels
-3. Specify submission requirements (e.g., "maximum of two medium difficulty problems")
-
 ## Accessibility Guidelines
 
 When creating content for this site:
@@ -236,7 +225,7 @@ When creating content for this site:
 - Focus on data structures and algorithms in C++
 - Heavy use of STL (Standard Template Library)
 - Pair programming encouraged for most PAs
-- LeetCode practice worth 10% of grade
+- Caliber coding practice/homework worth 10% of grade
 - Mock interviews required with TAs/ULAs
 - Topics include: linked lists, trees, BSTs, hash tables, graphs, complexity analysis
 

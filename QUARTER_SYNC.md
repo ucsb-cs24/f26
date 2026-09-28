@@ -7,7 +7,7 @@ How to set up this course website for a new quarter.
 | Script | Purpose |
 |--------|---------|
 | `sync_holidays.rb` | Creates/renames holiday placeholder files in `_lectures/` |
-| `sync_dates.rb` | Shifts all `assigned`/`due` dates in `_lab/`, `_pa/`, `_lp/` |
+| `sync_dates.rb` | Shifts all `assigned`/`due` dates in `_lab/`, `_pa/` |
 
 ---
 
@@ -73,8 +73,8 @@ ruby sync_dates.rb --dry-run   # preview
 ruby sync_dates.rb             # apply
 ```
 
-This shifts every `assigned` and `due` field in `_lab/*.md`, `_pa/*.md`, and
-`_lp/*.md` so each date keeps the same **week-of-quarter and day-of-week** it
+This shifts every `assigned` and `due` field in `_lab/*.md` and `_pa/*.md`
+so each date keeps the same **week-of-quarter and day-of-week** it
 had relative to the previous quarter's start — anchored to the first
 occurrence of the earliest `lecture_days` weekday on/after each quarter's
 `start_date`. This is *not* a flat day-count shift: a flat shift only

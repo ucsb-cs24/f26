@@ -105,7 +105,7 @@ That's it! All lecture dates recompute automatically.
 - ✅ Config file updated with schedule settings
 - ✅ All lectures migrated to use `sequence` numbers (lect01-lect19)
 - ✅ System tested and verified working correctly with holiday handling
-- ✅ Assignment dates (`_lab/`, `_pa/`, `_lp/`) are shifted quarter-to-quarter by
+- ✅ Assignment dates (`_lab/`, `_pa/`) are shifted quarter-to-quarter by
   `sync_dates.rb`, which preserves each date's week-of-quarter and day-of-week
   (see QUARTER_SYNC.md) — they still use manual/hardcoded dates in front
   matter, but a one-command script keeps them correct across quarter changes

@@ -15,4 +15,4 @@ This lab must be done individually.
 Please navigate to lab02 on gradescope and work to complete the Big-O practice problems provided.
 
 # Additional practice problems (optional)
-Refer back to previous labs and leetcode problems that you have solved so far and analyze the space and time complexity of your solution to each problem.
+Refer back to previous labs and Caliber coding practice problems that you have solved so far and analyze the space and time complexity of your solution to each problem.

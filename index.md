@@ -94,12 +94,6 @@ Quizzes are 30 minutes at the beginning or end of lecture. No make-ups; see the 
   {% include pa_table.html %}
 </div>
 
-### Leetcode Practice Problems
-
-<div class="card card-body" id="lp" markdown="1">
-  {% include lp_table.html %}
-</div>
-
 ### Office Hours
 
 <style>

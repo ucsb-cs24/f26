@@ -45,15 +45,15 @@ Need to Reschedule? Click Reschedule on your booking card, select a new slot, an
 Your mock interview will consist of:
 
 1. **Introduction & Behavioral Warm-Up (~2 minutes)** - Brief introduction and discussion of a technical challenge you've solved
-2. **Whiteboard Problem (~5 minutes)** - Plan your approach to a LeetCode problem on a whiteboard or document
-3. **Coding Implementation (~13 minutes)** - Implement your solution in C++ on LeetCode
+2. **Whiteboard Problem (~5 minutes)** - Plan your approach to a Caliber coding problem on a whiteboard or document
+3. **Coding Implementation (~13 minutes)** - Implement your solution in C++ on Caliber
 4. **Structured Feedback (~5 minutes)** - Receive feedback on your performance and ask questions
 
 ---
 
 ## How to Prepare
 
-1. **Practice LeetCode problems** - Complete the assigned problem sets (lp01-lp05)
+1. **Practice Caliber coding problems** - Complete the assigned Caliber coding practice/homework sets
 2. **Think out loud** - Get comfortable explaining your thought process while solving problems
 3. **Review data structures** - Know key concepts: linked lists, trees, hash tables, stacks, queues, graphs
 4. **Prepare your introduction** - Have a brief introduction ready and think of a technical challenge you've solved
@@ -84,7 +84,7 @@ You will be asked to:
 - Use diagrams or pseudocode to organize your thoughts
 
 ### 3. Coding Implementation (13 minutes)
-- Translate your whiteboard approach into working C++ code on LeetCode
+- Translate your whiteboard approach into working C++ code on Caliber
 - **Continue thinking out loud** - narrate what you're doing and why
 - Use the test case you created to verify your solution
 - Write clean, readable code with meaningful variable names
@@ -134,7 +134,7 @@ A: That's okay! You're evaluated on your approach and communication, not just co
 A: No, the interview simulates a real technical interview where you won't have access to external resources. You should rely on what you've learned in class.
 
 **Q: What difficulty level will the problem be?**
-A: The problem will be an easy or medium-difficulty LeetCode problem aligned with recent lecture topics (covered in lectures 1 to 2 weeks prior your interview). The system will select a random problem from LeetCode from topics that have already been covered in lecture.
+A: The problem will be an easy or medium-difficulty coding problem aligned with recent lecture topics (covered in lectures 1 to 2 weeks prior your interview). Caliber will select a random problem from topics that have already been covered in lecture.
 
 
 **Q: Can I reschedule my interview?**

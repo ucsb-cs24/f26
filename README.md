@@ -67,7 +67,6 @@ Generated files will be in the `_site/` directory.
 - `_lectures/` - Lecture slides and notes
 - `_lab/` - Lab assignments
 - `_pa/` - Programming assignments
-- `_lp/` - LeetCode practice sets
 - `_info/` - Course information (syllabus, staff, calendar)
 - `_exam/` - Exam information
 
