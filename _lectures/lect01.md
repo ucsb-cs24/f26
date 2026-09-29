@@ -5,7 +5,7 @@ desc: "Course introduction: CS16 review and ADTs"
 pre-reading: "Savitch: 2.1 - 2.5, 3.1"
 ready: true
 pdfurl: /lectures/CS24_Lecture1.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_Lecture1_ann.pdf
 ---
 # Code from lecture
