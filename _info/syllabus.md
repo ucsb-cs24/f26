@@ -30,7 +30,7 @@ By the end of this course, students will be able to:
 
 ### Resources
 
-**Textbook:** *Data Structures and Other Objects Using C++* by Main & Savitch (primary text, also used in CS32). Additional references: [*Open Data Structures*](https://opendatastructures.org/) (Morin), [*Algorithms*](https://cseweb.ucsd.edu/~dasgupta/book/toc.pdf) (Dasgupta).
+**Textbook:** *Data Structures and Other Objects Using C++, Fourth Edition* by Main & Savitch (primary text, also used in CS32). Additional references: [*Open Data Structures*](https://opendatastructures.org/) (Morin), [*Algorithms*](https://cseweb.ucsd.edu/~dasgupta/book/toc.pdf) (Dasgupta).
 
 **Tools & References:** [VisuAlgo](https://visualgo.net/) (data structure visualizations), [C++ Reference](https://en.cppreference.com) (STL documentation), [GDB Cheat Sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf) (debugging).
 
