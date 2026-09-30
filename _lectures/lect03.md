@@ -1,7 +1,7 @@
 ---
 num: "lect03"
 sequence: 3
-desc: "Rule of Three and Running Time Analysis"
+desc: "Complexity Analysis"
 ready: false
 pre-reading: "OP: 1.3, Dasgupta: 0.1 - 0.3"
 pdfurl: /lectures/CS24_Lecture3.pdf
