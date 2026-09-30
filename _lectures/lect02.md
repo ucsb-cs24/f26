@@ -2,7 +2,7 @@
 num: "lect02"
 sequence: 2
 desc: "Operator Overloading, and the Big Four"
-ready: false
+ready: true
 pre-reading: "Savitch: 4.3 - 4.4, 5.1, 5.3"
 pdfurl: /lectures/CS24_Lecture2.pdf
 annotatedready: false
