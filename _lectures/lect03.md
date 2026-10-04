@@ -2,7 +2,7 @@
 num: "lect03"
 sequence: 3
 desc: "Complexity Analysis"
-ready: false
+ready: true
 pre-reading: "OP: 1.3, Dasgupta: 0.1 - 0.3"
 pdfurl: /lectures/CS24_Lecture3.pdf
 annotatedpdfurl: /lectures/CS24_Lecture3_ann.pdf
