@@ -82,6 +82,10 @@ The final exam is **comprehensive** and covers all course material.
 - **Time**: {{ site.final_exam_time }}
 - **Location**: {{ site.lecture_location }} (Same as lecture hall)
 
+### Caliber Coding Practice / Homework
+
+All deadlines for formative assessments (coding practice/homework) on [Caliber](https://app.caliber.cs.ucsb.edu) will be published on Caliber itself, not on this site. Check Caliber regularly for due dates.
+
 ---
 
 ### Lectures
