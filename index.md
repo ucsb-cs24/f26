@@ -62,7 +62,7 @@ There are **4 quizzes** given during lecture. The lowest quiz score will be repl
 {% assign quiz2_date = quiz2_date | strip %}
 {% capture quiz3_date %}{% include compute_lecture_date.liquid sequence=13 %}{% endcapture %}
 {% assign quiz3_date = quiz3_date | strip %}
-{% capture quiz4_date %}{% include compute_lecture_date.liquid sequence=17 %}{% endcapture %}
+{% capture quiz4_date %}{% include compute_lecture_date.liquid sequence=18 %}{% endcapture %}
 {% assign quiz4_date = quiz4_date | strip %}
 
 | Quiz | Date |
@@ -73,6 +73,14 @@ There are **4 quizzes** given during lecture. The lowest quiz score will be repl
 | Quiz 4 | <time datetime="{{ quiz4_date }}">{{ quiz4_date | date: "%A, %B %-d, %Y" }}</time> |
 
 Quizzes are 30 minutes at the beginning or end of lecture. No make-ups; see the [syllabus]({{site.baseurl}}/info/syllabus/) for full policy.
+
+### Final Exam
+
+The final exam is **comprehensive** and covers all course material.
+
+- **Date**: <time datetime="{{ site.final_exam_date }}">{{ site.final_exam_date | date: "%A, %B %-d, %Y" }}</time>
+- **Time**: {{ site.final_exam_time }}
+- **Location**: {{ site.lecture_location }} (Same as lecture hall)
 
 ---
 
