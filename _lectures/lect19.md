@@ -52,15 +52,13 @@ Each lab/project reinforces real-world applications of core data structures and 
 
     Focus especially on:
 
-    * lab02/lab03 for Linked Lists and BSTs
+    * lab01/lab02 for Linked Lists and BSTs
 
-    * lab04 for Heaps
+    * lab03 for Heaps
 
     * pa01 for applying BSTs in a game
 
     * pa02 and pa03 for applied, multi-structure problem-solving
-
-    * lab02 and lab05 for complexity analysis
 
 5. Consolidate Key Concepts
 Make a quick personal reference sheet (or flashcards) for:
