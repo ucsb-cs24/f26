@@ -32,3 +32,15 @@ The **time complexity** of an algorithm is the number of **constant-time operati
 - A single loop over an array of size n: **O(n)** time
 - A nested loop (loop inside a loop) over an array of size n: **O(n²)** time
 - Binary search on a sorted array of size n: **O(log n)** time
+
+
+## Space Complexity
+The **space complexity** of an algorithm is the amount of **auxiliary (extra) memory** it uses as a function of the input size. Auxiliary space does **not** count the memory used by the input or the output — it only counts the additional memory the algorithm needs to compute the result. This includes:
+- Local variables
+- Temporary data structures (vectors, arrays, hash maps, etc.)
+- Call stack frames from recursion
+
+**Examples:**
+- A function that sorts an array in-place using a single temp variable: **O(1)** space
+- A function that copies all elements into a new vector to process them: **O(n)** space
+- A recursive function with maximum recursion depth `d`: **O(d)** space (one stack frame per call on the deepest path)
