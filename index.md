@@ -84,7 +84,7 @@ The final exam is **comprehensive** and covers all course material.
 
 ### Caliber Coding Practice / Homework / Mock Interviews
 
-All deadlines for formative assessments (coding practice/homework) as well as mock interview booking and slots are managed on [Caliber](https://app.caliber.cs.ucsb.edu) and will be published there, not on this site. Check Caliber regularly for due dates and available slots.
+The full list of assignment deadlines for formative assessments (coding practice/homework), as well as mock interview booking and slots, is available on [Caliber](https://app.caliber.cs.ucsb.edu) — not on this site. Check Caliber regularly for due dates and available slots.
 
 ---
 
