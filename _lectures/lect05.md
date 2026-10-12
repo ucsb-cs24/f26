@@ -1,8 +1,8 @@
 ---
 num: "lect05"
 sequence: 5
-desc: "Binary Search Trees"
-ready: false
+desc: "Binary Search Trees: under the hood of std::set"
+ready: true
 pre-reading: "Savitch: 10.4, 10.5"
 pdfurl: /lectures/CS24_Lecture5.pdf
 annotatedready: false

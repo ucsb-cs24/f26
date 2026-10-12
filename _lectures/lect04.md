@@ -1,11 +1,11 @@
 ---
 num: "lect04"
 sequence: 4
-desc: "Quiz 1, C++ STL, templates"
+desc: "Quiz 1, C++ STL Tour"
 ready: true
 pre-reading: "Savitch: 12.1, 10.1 - 10.3"
 pdfurl: /lectures/CS24_Lecture4.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_Lecture4_ann.pdf
 handouturl: https://docs.google.com/document/d/1MoAQLZObtDIVmRpcJ84mAQ7HxswlxbyqK6ZBoqF_r0Y/edit?usp=sharing
 ---
