@@ -18,7 +18,7 @@ handoutready: true
 # Topics
 * Iterators: Abstraction for iterating through data structures
 * Design an iterator for the custom BST class and solve related problems (you will implement this in pa01)
-* Fucntion template
+* C++ Template
 
 
 
