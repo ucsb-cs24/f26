@@ -5,7 +5,7 @@ desc: "BST Traversals, Iterators, Templates"
 ready: true
 pre-reading: "Savitch: 3.1 - 3.3"
 pdfurl: /lectures/CS24_Lecture6.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_Lecture6_ann.pdf
 handouturl: https://docs.google.com/document/d/12f6iENKgMGiLbTReVEdZgZwle1yCKlx7YE2rAxC7bg4/edit?usp=sharing
 handoutready: true
