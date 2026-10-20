@@ -11,8 +11,7 @@ handoutready: false
 ---
 
 # Topics 
-* Prequiz reflection (complete in lecture, before quiz). DSP students will receive accommodation to complete this at a different time. Professor Mirza will reach out.
-* Quiz 2 (in class). Covers Stack + Queue. You may leave after you finish the quiz.
+* Quiz will be during the first half of class.
 * After the quiz: Priority Queue - priority-based extraction and applications
 
 
