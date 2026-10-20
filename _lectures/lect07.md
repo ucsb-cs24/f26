@@ -5,10 +5,10 @@ desc: "Stack + Queue"
 ready: true
 pre-reading: "Savitch: 7.1 - 7.4, 8.1 - 8.4"
 pdfurl: /lectures/CS24_Lecture7.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_Lecture7_ann.pdf
 handouturl: https://docs.google.com/document/d/16E5QiUHjBCW4HDfmF0XSnYJEUzLgRCp7sEEpufNOX4A/edit?tab=t.0
-handoutready: false
+handoutready: true
 ---
 # Code from lecture
 [{{site.lect_repo}}/tree/main/{{page.num}}]({{site.lect_repo}}/tree/main/{{page.num}})
