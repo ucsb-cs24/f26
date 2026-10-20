@@ -2,7 +2,7 @@
 num: "lect08"
 sequence: 8
 desc: "Quiz 2 + Priority Queues"
-ready: false
+ready: true
 pre-reading: "Savitch: 1.2, 8.4 (Priority Queues)"
 annotatedready: false
 annotatedpdfurl: /lectures/CS24_Lect07_Handout_ann.pdf
