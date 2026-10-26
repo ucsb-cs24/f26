@@ -1,9 +1,9 @@
 ---
 num: "lect09"
 sequence: 9
-desc: "Binary Heaps"
-ready: false
-pdfurl: /lectures/CS24_Lecture8.pdf
+desc: "Priority Queue"
+ready: true
+pdfurl: /lectures/CS24_Lecture9.pdf
 pre-reading: "Savitch: 1.2, 8.4 (Priority Queues)"
 annotatedready: false
 annotatedpdfurl: /lectures/CS24_Lect07_Handout_ann.pdf
