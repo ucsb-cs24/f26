@@ -8,7 +8,7 @@ pdfurl: /lectures/CS24_BinaryHeap.pdf
 annotatedready: false
 annotatedpdfurl: /lectures/CS24_BinaryHeaps_ann.pdf
 handouturl: https://docs.google.com/document/d/1_plyhlFXz22I5JYQe_6AyI9qnXEPLYioqbD1YcSHbFY/edit?tab=t.0#heading=h.8rgp5dyr4b6c
-handoutready: false
+handoutready: true
 ---
 
 ## Topics
