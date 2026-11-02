@@ -2,7 +2,7 @@
 num: "lect11"
 sequence: 11
 desc: "Hashtables"
-ready: false
+ready: true
 pdfurl: /lectures/CS24_Hashtables.pdf
 annotatedready: false
 annotatedpdfurl: /lectures/CS24_Hashtables_ann.pdf
