@@ -4,7 +4,7 @@ sequence: 11
 desc: "Hashtables"
 ready: true
 pdfurl: /lectures/CS24_Hashtables.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_Hashtables_ann.pdf
 pre-reading: "Prof. Suri's CS 130A handout"
 ---
