@@ -1,8 +1,8 @@
 ---
 num: "lect13"
 sequence: 14
-desc: "Graph search: Breadth first traversal + Reflection"
-ready: false
+desc: "Graph search: Breadth first traversal"
+ready: true
 pre-reading: "Savitch: 15.3"
 pdfurl: /lectures/CS24_Graphs_BFS.pdf
 annotatedready: false
@@ -15,6 +15,6 @@ annotatedpdfurl:  /lectures/CS24_Graph_BFT_ann.pdf
 
 # Topics
 * Graph search - BFS and application to prediction in NNs
-* Complete reflection on Canvas
+
 
 
