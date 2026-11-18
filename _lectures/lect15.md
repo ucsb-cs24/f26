@@ -36,7 +36,7 @@ Discuss with your peer (5 mins):
   
 ---
 
-### 3. DFS Applied to PA03: Backpropagation
+### Post lecture: DFS Applied to PA03: Backpropagation
 
 The neural network is a directed graph where edges only go forward. To compute the nudge (delta) for each weight, you need values from nodes in the next layer — but there is no backward edge to follow. The recursive DFS naturally solves this: dive to the output first, compute the error there, then pass results back up the call stack. A contributions map (memoization) ensures each node is computed only once.
 
