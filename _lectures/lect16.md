@@ -2,7 +2,7 @@
 num: "lect15"
 sequence: 16
 desc: "Mergesort: Divide and Conquer + Heapsort"
-ready: false
+ready: true
 pre-reading: "Savitch: 13.1 - 13.2"
 pdfurl: /lectures/CS24_MergeSort.pdf
 annotatedready: false

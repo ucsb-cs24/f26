@@ -62,7 +62,7 @@ There are **4 quizzes** given during lecture. The lowest quiz score will be repl
 {% assign quiz2_date = quiz2_date | strip %}
 {% capture quiz3_date %}{% include compute_lecture_date.liquid sequence=13 %}{% endcapture %}
 {% assign quiz3_date = quiz3_date | strip %}
-{% capture quiz4_date %}{% include compute_lecture_date.liquid sequence=18 %}{% endcapture %}
+{% capture quiz4_date %}{% include compute_lecture_date.liquid sequence=19 %}{% endcapture %}
 {% assign quiz4_date = quiz4_date | strip %}
 
 | Quiz | Date |
