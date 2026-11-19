@@ -5,7 +5,7 @@ desc: "Graph Search: Depth first traversal"
 ready: true
 pre-reading: "Savitch: 15.4"
 pdfurl: /lectures/CS24_Graph_DFT.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_Graph_DFT_ann.pdf
 ---
 
