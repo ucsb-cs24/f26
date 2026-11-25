@@ -2,7 +2,7 @@
 num: "lect16"
 sequence: 17
 desc: "Complexity Analysis Revisited: Graph Search and std::set"
-ready: false
+ready: true
 pdfurl: /lectures/CS24_ComplexityAnalysisRevisited.pdf
 annotatedready: false
 annotatedpdfurl: /lectures/CS24_ComplexityAnalysisRevisited_ann.pdf
