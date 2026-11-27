@@ -4,7 +4,7 @@ sequence: 17
 desc: "Complexity Analysis Revisited: Graph Search and std::set"
 ready: true
 pdfurl: /lectures/CS24_ComplexityAnalysisRevisited.pdf
-annotatedready: false
+annotatedready: true
 annotatedpdfurl: /lectures/CS24_ComplexityAnalysisRevisited_ann.pdf
 ---
 
